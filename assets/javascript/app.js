@@ -115,6 +115,6 @@ $(document).ready(function () {
         console.log("user" + userAttempt);
         console.log("game" + gameAnswer);
         runCheck(userAttempt, gameAnswer)
-        
+        $('#answer-question').val('')
     })
 });
